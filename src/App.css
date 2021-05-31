@@ -1,0 +1,230 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fafafa;
+}
+.parent{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  color: white;
+  background-color: green;
+  display: flex;
+  padding: 0 200px;
+  border-bottom: 1px solid #efefef;
+  align-items: center;
+  
+}
+.first {
+  width: 80.3333333333333%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
+  
+}
+.second {
+  width: 18.3333333333333%;
+  
+  height:30px;
+  
+}
+#sign{
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+#login{
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+#logout{
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model_container {
+  width: 400px;
+  height: auto;
+  padding: 15px;
+  border-radius: 4px;
+  background: var(--white);
+}
+.formblock {
+  margin: 10px 0;
+  color: rgb(189, 192, 211);
+}
+.form {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #d2dbdb;
+  outline: none;
+  border-radius: 3px;
+}
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 13px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #f83a63;
+}
+
+ .btn-smart {
+  width: 100%;
+  background: #f83a63;
+}
+
+
+
+.prtcpnt{
+  margin-top: 4%;
+  position: relative;
+  height: auto;
+  background-color: rgb(187, 181, 181);
+}
+
+.prtcpnt  img{
+  margin:auto;
+  margin-top: 40px;
+  height: 79%; 
+  width: 79%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: grey;
+  
+}
+
+/* getstarted element */
+
+.prtcpnt .gets{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  top: 63%;
+  left: 45%;
+ background-color:#f83a63;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.prtcpnt .btn{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  top: 63%;
+  left: 40%;
+ background-color:#f83a63;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+#strt{
+  color: white;
+  padding: 20px;
+}
+.prtcpnt .bt{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  top: 63%;
+  left: 55%;
+ background-color:#f83a63;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+
+}
+
+#admin{
+  color: white;
+  padding: 20px;
+}
+.wlcm{
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 12%;
+  left: 44%;
+ 
+
+}
+#cred{
+  font-size: 40px;
+  color:white;
+   padding: 20px; 
+}
+
+ /* todo list */
+.header{
+  height: 200px;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 50px;
+}
+
+
+/* card cpmonent */
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper{
+  width: 240px; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 120px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding : 40px 100px;
+}
